@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://freeminigames.online/assets/imgs/favicon.png">
+    <title>Puzzle Games | Free Mini Games</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7E242KB6Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F7E242KB6Y');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7484757426543194"
+     crossorigin="anonymous"></script>
+     <meta name="google-adsense-account" content="ca-pub-7484757426543194">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Monda", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        body {
+            background: #090C13;
+        }
+
+        nav {
+            width: 90%;
+            max-width: 1300px;
+            margin: 20px auto;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 800px) {
+            nav {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .navItems>li {
+                margin-bottom: 10px;
+                margin-right: 0px;
+            }
+
+        }
+
+        #logo1 {
+            width: 100px;
+            /* filter: invert(1); */
+        }
+
+        .navItems {
+            /* display: flex; */
+            color: white;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        .navItems>li {
+            margin-right: 15px;
+            border: 1px solid white;
+            padding: 4px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .navItems>li>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            width: 70%;
+            max-width: 1200px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .catelogListOuter {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .catelogListOuter>h1 {
+            font-weight: 400;
+            color: white;
+            margin: auto;
+            margin-bottom: 15px;
+            font-size: 29px;
+            border-bottom: 1px solid white;
+            width: 50%;
+            min-width: 350px;
+        }
+
+        #catelogList {
+            list-style-type: none;
+        }
+
+        #catelogList>li {
+            display: inline-block;
+            margin: 15px;
+            width: 150px;
+        }
+
+        .catelogFrame {
+            color: white;
+            position: relative;
+            transition: 0.3s ease;
+            text-decoration: none;
+        }
+
+        .catelogFrame>img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+
+        .catelogFrameDesc>h3 {
+            font-size: 16px;
+            font-weight: 400;
+            white-space: nowrap;
+            /* Prevent text from wrapping */
+            overflow: hidden;
+            /* Hide overflow text */
+            text-overflow: ellipsis;
+            width: 100%;
+        }
+
+        .paginationjs-pages>ul {
+            list-style-type: none;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid white;
+            padding: 5px 20px;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+
+        .paginationjs-pages>ul>li {
+            cursor: pointer;
+        }
+
+        .paginationjs-pages>ul>.active {
+            border: 1px solid white;
+            border-radius: 50%;
+            padding: 1px 10px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                width: 95%;
+            }
+        }
+
+
+        footer {
+            margin-top: 70px;
+        }
+
+        .footerOuter {
+            margin: auto;
+            margin-bottom: 20px;
+            width: 80%;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .footerMiniCompo {
+            display: inline-block;
+            text-align: left;
+            max-width: 260px;
+            margin-bottom: 10px;
+        }
+
+        .footerMiniCompo>a {
+            display: block;
+            text-decoration: none;
+            line-height: 21px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .footerMiniCompoHead {
+            color: white;
+        }
+
+        .footerMiniCompoLinks {
+            color: #b9b9b9;
+        }
+
+        .footerOuter2 {
+            width: 80%;
+            margin: auto;
+            padding: 10px 0px;
+            border-top: 1px solid white;
+            font-size: 15px;
+        }
+
+        .footerOuter2>p {
+            margin-right: 20px;
+            display: inline-block;
+            color: white;
+        }
+
+        .footerOuter2>a {
+            margin-left: 20px;
+            display: inline-block;
+            color: white;
+            float: right;
+        }
+
+        @media (max-width: 800px) {
+            .footerOuter {
+                flex-direction: column;
+            }
+
+            .footerMiniCompo {
+                max-width: 90%;
+            }
+
+            .footerOuter2>p {
+                display: block;
+            }
+
+            .footerOuter2>a {
+                float: none;
+                margin: 7px auto;
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/" style="display: inline-flex;"><img loading="lazy" src="/assets/site-logo.png" alt="" id="logo1"></a>
+
+            <ul class="navItems">
+                <li> <a href="/categories/racing/">Racing</a> </li>
+                <li> <a href="/categories/adventure/">Adventure</a> </li>
+                <li> <a href="/categories/arcade/">Arcade</a> </li>
+                <li><a href="/categories/puzzle/">Puzzle</a> </li>
+                <li><a href="/categories/">View all</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="catelogListOuter">
+
+            <h1>Puzzle Games</h1>
+
+            <ul id="catelogList">
+
+                <li>
+                    <a href="11-11.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/11-11.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>11-11</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="2048-multitask.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/2048-multitask.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>2048 Multitask</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="2048.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/2048.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>2048</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="arithmetica.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/arithmetica.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Arithmetica</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="b-cubed.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/b-cubed.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>B-Cubed</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="big-tall-small.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/big-tall-small.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Big Tall Small</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="block-the-pig.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/block-the-pig.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Block The Pig</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="bloxorz.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/bloxorz.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Bloxorz</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="brain-for-monster-truck.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/brain-for-monster-truck.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Brain For Monster Truck</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="brain-test-2-tricky-stories.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/brain-test-2-tricky-stories.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Brain Test 2: Tricky Stories</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="brain-test-3-tricky-quests.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/brain-test-3-tricky-quests.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Brain Test 3: Tricky Quests</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="brain-test-tricky-puzzles.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/brain-test-tricky-puzzles.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Brain Test: Tricky Puzzles</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="cat-trap.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/cat-trap.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Cat Trap</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="cats.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/cats.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Cats</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="chicken-merge.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/chicken-merge.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Chicken Merge</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="cubes-king.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/cubes-king.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Cubes King</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="detective-loupe-puzzle.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/detective-loupe-puzzle.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Detective Loupe Puzzle</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="draw-the-hill.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/draw-the-hill.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Draw The Hill</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="elastic-man.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/elastic-man.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Elastic Man</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="energy.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/energy.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Energy</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="escaping-the-prison.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/escaping-the-prison.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Escaping The Prison</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="factory-balls-forever.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/factory-balls-forever.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Factory Balls Forever</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="free-the-key.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/free-the-key.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Free The Key</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gold-digger-frvr.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/gold-digger-frvr.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Gold Digger Frvr</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="heart-star-html5.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/heart-star-html5.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Heart Star</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="hextris.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/hextris.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Hextris</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="infinity-loop.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/infinity-loop.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Infinity Loop</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="marble-dash.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/marble-dash.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Marble Dash</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="maze-path-of-light.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/maze-path-of-light.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Maze Path Of Light</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="maze-planet-3d.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/maze-planet-3d.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Maze Planet 3D</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="minesweeper.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/minesweeper.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Minesweeper</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="mosaic-puzzle-art.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/mosaic-puzzle-art.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Mosaic Puzzle Art</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="n-gon.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/n-gon.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>N Gon</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="panda-bubble-shooter.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/panda-bubble-shooter.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Panda Bubble Shooter</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="perfect-peel.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/perfect-peel.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Perfect Peel</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="poor-bunny.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/poor-bunny.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Poor Bunny</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="pop-it-master.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/pop-it-master.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Pop It Master</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="riddle-school.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/riddle-school.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Riddle School</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="sketchbook-04.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/sketchbook-04.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Sketchbook 04</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="solitaire.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/solitaire.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Solitaire</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="stacktris.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/stacktris.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Stacktris</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="stick-merge.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/stick-merge.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Stick Merge</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="stickman-bridge-constructor.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/stickman-bridge-constructor.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Stickman Bridge Constructor</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="super-hexbee-merger.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/super-hexbee-merger.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Super Hexbee Merger</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="swingo.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/swingo.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Swingo</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="terris.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/terris.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Terris</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="tetris-flash.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/tetris-flash.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Tetris Flash</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="the-impossible-quiz.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/the-impossible-quiz.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>The Impossible Quiz</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="the-little-giant.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/the-little-giant.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>The Little Giant</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="there-is-no-game.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/there-is-no-game.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>There Is No Game</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="three-goblets.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/three-goblets.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Three Goblets</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="tictactoe.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/tictactoe.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Tictactoe</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="tiny-fishing.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/tiny-fishing.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Tiny Fishing</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="tomb-of-the-mask-color.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/tomb-of-the-mask-color.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Tomb of The Mask Color</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="tomb-of-the-mask.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/tomb-of-the-mask.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Tomb Of The Mask</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="tower-of-destiny.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/tower-of-destiny.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Tower Of Destiny</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="tricks.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/tricks.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Tricks</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="two-neon-boxes.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/two-neon-boxes.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Two Neon Boxes</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="water-color-sort.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/water-color-sort.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Water Color Sort</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="we-become-what-we-behold.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/we-become-what-we-behold.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>We Become What We Behold</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="where-is-my-cat.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/where-is-my-cat.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Where Is My Cat</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="who-is.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/who-is.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Who Is</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="wood-blocks-3d.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/wood-blocks-3d.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Wood Blocks 3D</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="word-city-crossed.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/word-city-crossed.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Word City Crossed</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="word-city-uncrossed.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/word-city-uncrossed.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Word City Uncrossed</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="wordle-unlimited.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/wordle-unlimited.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Wordle Unlimited</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="words-search-classic-edition.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/words-search-classic-edition.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Words Search Classic Edition</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="worlds-hardest-game-2.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/worlds-hardest-game-2.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Worlds Hardest Game 2</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="worlds-hardest-game-3.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/worlds-hardest-game-3.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Worlds Hardest Game 3</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div id="paginationContainer"></div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footerOuter">
+            <div class="footerMiniCompo">
+                <a href="/categories/survival/" class="footerMiniCompoHead">Survival Games</a>
+                <a href="/categories/survival/10-minutes-till-dawn.html" class="footerMiniCompoLinks">10 Minutes Till
+                    Dawn</a>
+                <a href="/categories/survival/orbital-survival.html" class="footerMiniCompoLinks">Orbital Survival</a>
+                <a href="/categories/survival/paper-io-2.html" class="footerMiniCompoLinks">Paper Io 2</a>
+                <a href="/categories/survival/pixel-gun-survival.html" class="footerMiniCompoLinks">Pixel Gun
+                    Survival</a>
+                <a href="/categories/survival/zombie-derby-pixel-survival.html" class="footerMiniCompoLinks">Zombie
+                    Derby Pixel Survival</a>
+                <a href="/categories/survival/survivor-in-rainbow-monster.html" class="footerMiniCompoLinks">Survivor In
+                    Rainbow Monster</a>
+            </div>
+
+            <div class="footerMiniCompo">
+                <a href="#" class="footerMiniCompoHead">Stickman Games</a>
+                <a href="/categories/action/stickman-ragdoll-crash-fun.html" class="footerMiniCompoLinks">Stickman
+                    Ragdoll Crash</a>
+                <a href="/categories/shooter/shoot-stickman.html" class="footerMiniCompoLinks">Shoot Stickman</a>
+                <a href="/categories/action/stickman-army-team-battle.html" class="footerMiniCompoLinks">Stickman Army
+                    Team Battle</a>
+                <a href="/categories/action/stickman-army-the-resistance.html" class="footerMiniCompoLinks">Stickman
+                    Army The Resistance</a>
+                <a href="/categories/puzzle/stickman-bridge-constructor.html" class="footerMiniCompoLinks">Stickman
+                    Bridge Constructor</a>
+                <a href="/categories/sports/stickman-golf.html" class="footerMiniCompoLinks">Stickman Golf</a>
+                <a href="/categories/action/the-spear-stickman.html" class="footerMiniCompoLinks">The Spear Stickman</a>
+            </div>
+
+            <div class="footerMiniCompo">
+                <a href="/categories/multiplayer/" class="footerMiniCompoHead">Multiplayer Games</a>
+                <a href="/categories/multiplayer/among-us.html" class="footerMiniCompoLinks">Among Us</a>
+                <a href="/categories/multiplayer/ludo-multiplayer.html" class="footerMiniCompoLinks">Ludo
+                    Multiplayer</a>
+                <a href="/categories/multiplayer/12-minibattles.html" class="footerMiniCompoLinks">12 Minibattles</a>
+                <a href="/categories/multiplayer/battle-wheels.html" class="footerMiniCompoLinks">Battle Wheels</a>
+                <a href="/categories/multiplayer/raft-wars-multiplayer.html" class="footerMiniCompoLinks">Raft Wars
+                    Multiplayer</a>
+                <a href="/categories/multiplayer/slope-2-multiplayer.html" class="footerMiniCompoLinks">Slope 2
+                    Multiplayer</a>
+                <a href="/categories/multiplayer/tag.html" class="footerMiniCompoLinks">Tag Multiplayer</a>
+            </div>
+
+            <div class="footerMiniCompo">
+                <a href="/categories/fighting/" class="footerMiniCompoHead">Fighting Games</a>
+                <a href="/categories/fighting/bearsus.html" class="footerMiniCompoLinks">Bearsus</a>
+                <a href="/categories/fighting/big-shot-boxing.html" class="footerMiniCompoLinks">Big Shot Boxing</a>
+                <a href="/categories/fighting/drunken-duel.html" class="footerMiniCompoLinks">Drunken Duel</a>
+                <a href="/categories/fighting/thumb-fighter.html" class="footerMiniCompoLinks">Thumb Fighter</a>
+                <a href="/categories/fighting/paper-fighter-3d.html" class="footerMiniCompoLinks">Paper Fighter 3D</a>
+                <a href="/categories/fighting/stick-fighter.html" class="footerMiniCompoLinks">Stick Fighter</a>
+            </div>
+
+        </div>
+
+        <div class="footerOuter2">
+            <p class="companyName">freeminigames.online &#169; 2025</p>
+            <a href="/dmca.html">DMCA</a>
+            <a href="/privacy.html">Privacy Policy</a>
+            <a href="/terms.html">Terms</a>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.6.0/pagination.min.js"
+        integrity="sha512-GzbaI5EsNzdEUq6/2XLYpr1y9CUZRIVsUeWTAFgULtQa5jZ3Nug8i0nZKM6jp9NffBCZhymPPQFcF0DK+JkRpw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        // Grab all the list items and convert them into an array
+        var listItems = $('#catelogList li').toArray();
+
+        // Initialize pagination
+        $('#paginationContainer').pagination({
+            dataSource: listItems,  // Use the list items as the data source
+            pageSize: 12,           // Number of items per page
+            pageRange: 1,           // How many page links to show
+            hideLastOnEllipsisShow: true,  // Hide the last page link when using ellipsis
+            callback: async function (data, pagination) {
+                $('html, body').animate(await {
+                    scrollTop: 0
+                }, 'fast');
+                $('#catelogList').empty();
+
+                // Append each paginated item back to the list
+                $(data).each(function (index, item) {
+                    $('#catelogList').append(item);  // Append the item (LI element)
+                });
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>
