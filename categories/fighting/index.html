@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://freeminigames.online/assets/imgs/favicon.png">
+    <title>Fighting Games | Free Mini Games</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7E242KB6Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F7E242KB6Y');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7484757426543194"
+     crossorigin="anonymous"></script>
+     <meta name="google-adsense-account" content="ca-pub-7484757426543194">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Monda", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        body {
+            background: #090C13;
+        }
+
+        nav {
+            width: 90%;
+            max-width: 1300px;
+            margin: 20px auto;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 800px) {
+            nav {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .navItems>li {
+                margin-bottom: 10px;
+                margin-right: 0px;
+            }
+
+        }
+
+        #logo1 {
+            width: 100px;
+            /* filter: invert(1); */
+        }
+
+        .navItems {
+            /* display: flex; */
+            color: white;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        .navItems>li {
+            margin-right: 15px;
+            border: 1px solid white;
+            padding: 4px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .navItems>li>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            width: 70%;
+            max-width: 1200px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .catelogListOuter {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .catelogListOuter>h1 {
+            font-weight: 400;
+            color: white;
+            margin: auto;
+            margin-bottom: 15px;
+            font-size: 29px;
+            border-bottom: 1px solid white;
+            width: 50%;
+            min-width: 350px;
+        }
+
+        #catelogList {
+            list-style-type: none;
+        }
+
+        #catelogList>li {
+            display: inline-block;
+            margin: 15px;
+            width: 150px;
+        }
+
+        .catelogFrame {
+            color: white;
+            position: relative;
+            transition: 0.3s ease;
+            text-decoration: none;
+        }
+
+        .catelogFrame>img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+
+        .catelogFrameDesc>h3 {
+            font-size: 16px;
+            font-weight: 400;
+            white-space: nowrap;
+            /* Prevent text from wrapping */
+            overflow: hidden;
+            /* Hide overflow text */
+            text-overflow: ellipsis;
+            width: 100%;
+        }
+
+        .paginationjs-pages>ul {
+            list-style-type: none;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid white;
+            padding: 5px 20px;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+
+        .paginationjs-pages>ul>li {
+            cursor: pointer;
+        }
+
+        .paginationjs-pages>ul>.active {
+            border: 1px solid white;
+            border-radius: 50%;
+            padding: 1px 10px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                width: 95%;
+            }
+        }
+
+
+        footer {
+            margin-top: 70px;
+        }
+
+        .footerOuter {
+            margin: auto;
+            margin-bottom: 20px;
+            width: 80%;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .footerMiniCompo {
+            display: inline-block;
+            text-align: left;
+            max-width: 260px;
+            margin-bottom: 10px;
+        }
+
+        .footerMiniCompo>a {
+            display: block;
+            text-decoration: none;
+            line-height: 21px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .footerMiniCompoHead {
+            color: white;
+        }
+
+        .footerMiniCompoLinks {
+            color: #b9b9b9;
+        }
+
+        .footerOuter2 {
+            width: 80%;
+            margin: auto;
+            padding: 10px 0px;
+            border-top: 1px solid white;
+            font-size: 15px;
+        }
+
+        .footerOuter2>p {
+            margin-right: 20px;
+            display: inline-block;
+            color: white;
+        }
+
+        .footerOuter2>a {
+            margin-left: 20px;
+            display: inline-block;
+            color: white;
+            float: right;
+        }
+
+        @media (max-width: 800px) {
+            .footerOuter {
+                flex-direction: column;
+            }
+
+            .footerMiniCompo {
+                max-width: 90%;
+            }
+
+            .footerOuter2>p {
+                display: block;
+            }
+
+            .footerOuter2>a {
+                float: none;
+                margin: 7px auto;
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/" style="display: inline-flex;"><img loading="lazy" src="/assets/site-logo.png" alt="" id="logo1"></a>
+
+            <ul class="navItems">
+                <li> <a href="/categories/racing/">Racing</a> </li>
+                <li> <a href="/categories/adventure/">Adventure</a> </li>
+                <li> <a href="/categories/arcade/">Arcade</a> </li>
+                <li><a href="/categories/puzzle/">Puzzle</a> </li>
+                <li><a href="/categories/">View all</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="catelogListOuter">
+
+            <h1>Fighting Games</h1>
+
+            <ul id="catelogList">
+
+                <li>
+                    <a href="bearsus.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/bearsus.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Bearsus</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="big-shot-boxing.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/big-shot-boxing.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Big Shot Boxing</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="drunken-duel.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/drunken-duel.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Drunken Duel</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="paper-fighter-3d.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/paper-fighter-3d.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Paper Fighter 3D</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="stick-fighter.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/stick-fighter.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Stick Fighter</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="stickman-fighter-epic-battle-2.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/stickman-fighter-epic-battle-2.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Stickman Fighter Epic Battle 2</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="stickman-fighter-mega-brawl.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/stickman-fighter-mega-brawl.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Stickman Fighter Mega Brawl</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="thumb-fighter-christmas.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/thumb-fighter-christmas.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Thumb Fighter Christmas</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="thumb-fighter.html" class="catelogFrame">
+                        <img loading="lazy" src="https://htmlxm.github.io/thumb/thumb-fighter.png" alt="">
+                        <div class="catelogFrameDesc">
+                            <h3>Thumb Fighter</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div id="paginationContainer"></div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footerOuter">
+            <div class="footerMiniCompo">
+                <a href="/categories/survival/" class="footerMiniCompoHead">Survival Games</a>
+                <a href="/categories/survival/10-minutes-till-dawn.html" class="footerMiniCompoLinks">10 Minutes Till
+                    Dawn</a>
+                <a href="/categories/survival/orbital-survival.html" class="footerMiniCompoLinks">Orbital Survival</a>
+                <a href="/categories/survival/paper-io-2.html" class="footerMiniCompoLinks">Paper Io 2</a>
+                <a href="/categories/survival/pixel-gun-survival.html" class="footerMiniCompoLinks">Pixel Gun
+                    Survival</a>
+                <a href="/categories/survival/zombie-derby-pixel-survival.html" class="footerMiniCompoLinks">Zombie
+                    Derby Pixel Survival</a>
+                <a href="/categories/survival/survivor-in-rainbow-monster.html" class="footerMiniCompoLinks">Survivor In
+                    Rainbow Monster</a>
+            </div>
+
+            <div class="footerMiniCompo">
+                <a href="#" class="footerMiniCompoHead">Stickman Games</a>
+                <a href="/categories/action/stickman-ragdoll-crash-fun.html" class="footerMiniCompoLinks">Stickman
+                    Ragdoll Crash</a>
+                <a href="/categories/shooter/shoot-stickman.html" class="footerMiniCompoLinks">Shoot Stickman</a>
+                <a href="/categories/action/stickman-army-team-battle.html" class="footerMiniCompoLinks">Stickman Army
+                    Team Battle</a>
+                <a href="/categories/action/stickman-army-the-resistance.html" class="footerMiniCompoLinks">Stickman
+                    Army The Resistance</a>
+                <a href="/categories/puzzle/stickman-bridge-constructor.html" class="footerMiniCompoLinks">Stickman
+                    Bridge Constructor</a>
+                <a href="/categories/sports/stickman-golf.html" class="footerMiniCompoLinks">Stickman Golf</a>
+                <a href="/categories/action/the-spear-stickman.html" class="footerMiniCompoLinks">The Spear Stickman</a>
+            </div>
+
+            <div class="footerMiniCompo">
+                <a href="/categories/multiplayer/" class="footerMiniCompoHead">Multiplayer Games</a>
+                <a href="/categories/multiplayer/among-us.html" class="footerMiniCompoLinks">Among Us</a>
+                <a href="/categories/multiplayer/ludo-multiplayer.html" class="footerMiniCompoLinks">Ludo
+                    Multiplayer</a>
+                <a href="/categories/multiplayer/12-minibattles.html" class="footerMiniCompoLinks">12 Minibattles</a>
+                <a href="/categories/multiplayer/battle-wheels.html" class="footerMiniCompoLinks">Battle Wheels</a>
+                <a href="/categories/multiplayer/raft-wars-multiplayer.html" class="footerMiniCompoLinks">Raft Wars
+                    Multiplayer</a>
+                <a href="/categories/multiplayer/slope-2-multiplayer.html" class="footerMiniCompoLinks">Slope 2
+                    Multiplayer</a>
+                <a href="/categories/multiplayer/tag.html" class="footerMiniCompoLinks">Tag Multiplayer</a>
+            </div>
+
+            <div class="footerMiniCompo">
+                <a href="/categories/fighting/" class="footerMiniCompoHead">Fighting Games</a>
+                <a href="/categories/fighting/bearsus.html" class="footerMiniCompoLinks">Bearsus</a>
+                <a href="/categories/fighting/big-shot-boxing.html" class="footerMiniCompoLinks">Big Shot Boxing</a>
+                <a href="/categories/fighting/drunken-duel.html" class="footerMiniCompoLinks">Drunken Duel</a>
+                <a href="/categories/fighting/thumb-fighter.html" class="footerMiniCompoLinks">Thumb Fighter</a>
+                <a href="/categories/fighting/paper-fighter-3d.html" class="footerMiniCompoLinks">Paper Fighter 3D</a>
+                <a href="/categories/fighting/stick-fighter.html" class="footerMiniCompoLinks">Stick Fighter</a>
+            </div>
+
+        </div>
+
+        <div class="footerOuter2">
+            <p class="companyName">freeminigames.online &#169; 2025</p>
+            <a href="/dmca.html">DMCA</a>
+            <a href="/privacy.html">Privacy Policy</a>
+            <a href="/terms.html">Terms</a>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.6.0/pagination.min.js"
+        integrity="sha512-GzbaI5EsNzdEUq6/2XLYpr1y9CUZRIVsUeWTAFgULtQa5jZ3Nug8i0nZKM6jp9NffBCZhymPPQFcF0DK+JkRpw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        // Grab all the list items and convert them into an array
+        var listItems = $('#catelogList li').toArray();
+
+        // Initialize pagination
+        $('#paginationContainer').pagination({
+            dataSource: listItems,  // Use the list items as the data source
+            pageSize: 12,           // Number of items per page
+            pageRange: 1,           // How many page links to show
+            hideLastOnEllipsisShow: true,  // Hide the last page link when using ellipsis
+            callback: async function (data, pagination) {
+                $('html, body').animate(await {
+                    scrollTop: 0
+                }, 'fast');
+                $('#catelogList').empty();
+
+                // Append each paginated item back to the list
+                $(data).each(function (index, item) {
+                    $('#catelogList').append(item);  // Append the item (LI element)
+                });
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>
