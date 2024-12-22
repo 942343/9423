@@ -22,6 +22,7 @@ nav {
     justify-content: space-between;
     padding: 10px 20px;
     border-radius: 5px;
+    background-color: #00000070;
 }
 
 @media (max-width: 800px) {
@@ -38,7 +39,7 @@ nav {
 }
 
 #logo1 {
-    width: 100px;
+    width: 150px;
     /* filter: invert(1); */
 }
 
